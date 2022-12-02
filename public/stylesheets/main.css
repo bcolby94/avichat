@@ -1,0 +1,62 @@
+@font-face {
+    font-family: VCR;
+    src: url(./VCR.ttf);
+}
+* {
+    font-family: 'VCR';
+}
+
+html, body {
+    background-color: #2D2D2D;
+    overflow:hidden;
+    color: white;
+}
+
+#send {
+    position:fixed;
+    bottom:0%;
+    margin-left:31%;
+    padding:2px;
+    margin-bottom:5px;
+}
+
+#upload {
+    position:fixed;
+    bottom:0%;
+    margin-left:31%;
+    padding:2px;
+    margin-bottom:5px;
+}
+
+#chatBar {
+    border-bottom:1px solid grey;
+    width:30%;
+    position:fixed;
+    height: 48px; 
+    bottom:0%;
+    border-radius:1px;
+    margin-bottom:10px;
+    z-index:999999;
+}
+
+#avatarDiv {
+    border-bottom:1px solid grey;
+    position:fixed;
+    height: 48px; 
+    width:30%;
+    bottom:0%;
+    border-radius:1px;
+    margin-bottom:10px;
+    margin-left:60%;
+    z-index:999999;
+}
+
+.c-input {
+    background-color:transparent;
+    border:none;
+    outline:none;
+    padding:10px;
+    width:100%;
+    height:100%;
+    color:white;
+}
